@@ -15,8 +15,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
-import info.androidhive.gcm.R;
-import info.androidhive.gcm.model.ChatRoom;
+import com.devlovepreet.gcmchat.R;
+import com.devlovepreet.gcmchat.model.ChatRoom;
 
 
 public class ChatRoomsAdapter extends RecyclerView.Adapter<ChatRoomsAdapter.ViewHolder> {
