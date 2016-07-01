@@ -1,14 +1,14 @@
 package com.devlovepreet.gcmchat.helper;
 
-/**
- * Created by devlovepreet on 1/7/16.
- */
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
 import com.devlovepreet.gcmchat.model.User;
 
+/**
+ * Created by Lincoln on 07/01/16.
+ */
 public class MyPreferenceManager {
 
     private String TAG = MyPreferenceManager.class.getSimpleName();

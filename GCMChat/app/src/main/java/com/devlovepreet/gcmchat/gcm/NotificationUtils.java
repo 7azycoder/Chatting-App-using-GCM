@@ -1,8 +1,5 @@
 package com.devlovepreet.gcmchat.gcm;
 
-/**
- * Created by devlovepreet on 1/7/16.
- */
 import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -104,7 +101,7 @@ public class NotificationUtils {
 
         NotificationCompat.InboxStyle inboxStyle = new NotificationCompat.InboxStyle();
 
-        if (Config.appendNotificationMessages) {
+        if(Config.appendNotificationMessages){
             // store the notification in shared pref first
             MyApplication.getInstance().getPrefManager().addNotification(message);
 
@@ -116,7 +113,7 @@ public class NotificationUtils {
             for (int i = messages.size() - 1; i >= 0; i--) {
                 inboxStyle.addLine(messages.get(i));
             }
-        } else {
+        }else{
             inboxStyle.addLine(message);
         }
 
@@ -129,7 +126,7 @@ public class NotificationUtils {
                 .setSound(alarmSound)
                 .setStyle(inboxStyle)
                 .setWhen(getTimeMilliSec(timeStamp))
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_notification_small)
                 .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), icon))
                 .setContentText(message)
                 .build();
@@ -151,7 +148,7 @@ public class NotificationUtils {
                 .setSound(alarmSound)
                 .setStyle(bigPictureStyle)
                 .setWhen(getTimeMilliSec(timeStamp))
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.ic_notification_small)
                 .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), icon))
                 .setContentText(message)
                 .build();
@@ -163,7 +160,7 @@ public class NotificationUtils {
     /**
      * Downloading push notification image before displaying it in
      * the notification tray
-     */
+     * */
     public Bitmap getBitmapFromURL(String strURL) {
         try {
             URL url = new URL(strURL);

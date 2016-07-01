@@ -1,8 +1,9 @@
 package com.devlovepreet.gcmchat.app;
 
 /**
- * Created by devlovepreet on 1/7/16.
+ * Created by Lincoln on 14/10/15.
  */
+
 import android.app.Application;
 import android.content.Intent;
 import android.text.TextUtils;
@@ -10,8 +11,13 @@ import android.text.TextUtils;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+
 import com.devlovepreet.gcmchat.activity.LoginActivity;
 import com.devlovepreet.gcmchat.helper.MyPreferenceManager;
+
+/**
+ * Created by Ravi on 13/05/15.
+ */
 
 public class MyApplication extends Application {
 

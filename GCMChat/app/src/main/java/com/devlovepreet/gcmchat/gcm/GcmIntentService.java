@@ -1,8 +1,5 @@
 package com.devlovepreet.gcmchat.gcm;
 
-/**
- * Created by devlovepreet on 1/7/16.
- */
 import android.app.IntentService;
 import android.content.Intent;
 import android.content.SharedPreferences;

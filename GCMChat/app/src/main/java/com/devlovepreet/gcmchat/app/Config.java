@@ -1,12 +1,12 @@
 package com.devlovepreet.gcmchat.app;
 
 /**
- * Created by devlovepreet on 1/7/16.
+ * Created by Lincoln on 05/01/16.
  */
 public class Config {
 
     // flag to identify whether to show single line
-    // or multi line text in push notification tray
+    // or multi line test push notification tray
     public static boolean appendNotificationMessages = true;
 
     // global topic to receive app wide push notifications

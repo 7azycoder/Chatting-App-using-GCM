@@ -1,8 +1,5 @@
 package com.devlovepreet.gcmchat.activity;
 
-/**
- * Created by devlovepreet on 1/7/16.
- */
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
@@ -215,4 +212,5 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
     }
+
 }
