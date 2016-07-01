@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "734364827909",
+    "project_id": "gcm-app-1358"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734364827909:android:d3cbd119f2aff108",
+        "android_client_info": {
+          "package_name": "com.devlovepreet.gcmchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnHK_i77t_AjYl0tYVl_WFVQ42pRiL4C8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
