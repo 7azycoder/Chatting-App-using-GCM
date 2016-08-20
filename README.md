@@ -6,19 +6,19 @@ A chatting app made using Google Cloud Messaging API. It lets users send message
 
 
 
-<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android02.png" width="350">/center>
+<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android02.png" width="350"></center>
 
 
 
-<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android03.png" width="350">/center>
+<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android03.png" width="350"></center>
 
 
 
-<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android04.png" width="350">/center>
+<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android04.png" width="350"></center>
 
 
 
-<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android05.png" width="350">/center>
+<center><img src="https://github.com/devlovepreet/Chatting-App-using-GCM/blob/master/screenshots/gcm_android05.png" width="350"></center>
 
 
 
